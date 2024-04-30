@@ -98,16 +98,21 @@ implemented successfully.
 
 
 ## IMPLEMENTATION OF AES
+
 ## AIM:
+
 To use Advanced Encryption Standard (AES) Algorithm for a practical
 application like URL Encryption.
 ## ALGORITHM:
+
 1. AES is based on a design principle known as a substitution–permutation.
 2. AES does not use a Feistel network like DES, it uses variant of Rijndael.
 3. It has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.
 4. AES operates on a 4 × 4 column-major order array of bytes, termed the state
 ## PROGRAM:
+
 ## AES.java
+```
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -166,7 +171,7 @@ Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")
  System.out.println("Decrypted URL : " + decryptedString);
  }
 }
-
+```
 ## OUTPUT:
 
 ![image](https://github.com/Samuelmariappan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393030/73019243-aa80-4cc6-a4da-2c154127ec8a)

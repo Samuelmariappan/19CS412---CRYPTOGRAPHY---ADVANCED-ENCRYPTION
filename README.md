@@ -166,12 +166,11 @@ Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")
  System.out.println("Decrypted URL : " + decryptedString);
  }
 }
-   ## OUTPUT:
-URL Encryption Using AES Algorithm
--------------------------------------------------
-Original URL : www.annauniv.edu
-Encrypted URL : vibpFJW6Cvs5Y+L7t4N6YWWe07+JzS1d3CU2h3mEvEg=
-Decrypted URL : www.annauniv.edu
+
+## OUTPUT:
+
+![image](https://github.com/Samuelmariappan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393030/73019243-aa80-4cc6-a4da-2c154127ec8a)
+
 
 ## RESULT:
 

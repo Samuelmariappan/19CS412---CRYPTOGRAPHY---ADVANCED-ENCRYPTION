@@ -1,5 +1,7 @@
+ ## Ex-04
+ ## DATE:
  ## IMPLEMENTATION OF RSA
- # AIM :
+ ## AIM :
  To write a C program to implement the RSA encryption algorithm.
 
 ## ALGORITHM:
@@ -97,6 +99,8 @@ Thus the C program to implement RSA encryption technique had been
 implemented successfully.
 
 
+## Ex-03
+## DATE:
 ## IMPLEMENTATION OF AES
 
 ## AIM:
@@ -181,6 +185,8 @@ Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")
 
 Thus the Implementation of AES had been implemented successfully.
 
+## Ex-05
+## DATE:
 ## IMPLEMENTATION OF DIFFIE HELLMAN KEY EXCHANGE ALGORITHM
 
 ## AIM:
@@ -264,7 +270,8 @@ implemented using C.
 
 
 
-
+## Ex-02
+## DATE:
 ## IMPLEMENTATION OF DES ALGORITHM
 
 ## AIM:
